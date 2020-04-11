@@ -17,12 +17,14 @@ const Social = ()=>{
         <div className="col-lg-1 col-md-1"></div>
         <div className="col-lg-6 col-md-6 social-block flex" style={{ justifyContent: 'end'}}>
           <p className="socialLabel">ALWAYS STAY<br/>CONNECTED</p>
+          <p className="socialLabel display-b" style={{display:'none'}}>ALWAYS STAY CONNECTED</p>
           { icons.map((e, i)=>(
             <IconLink key={ i } { ...e } />
           )) }
         </div>
         <div className="col-lg-4 col-md-4 social-block flex" style={{ justifyContent: 'center' }}>
           <p className="socialLabel custom-para" style={{ marginRight: '30px' }}>KEEP YOURSELF<br/>UPDATED</p>
+          <p className="socialLabel custom-para display-b" style={{display:'none'}}>KEEP YOURSELF UPDATED</p>
           <button className="btn btn-primary border0 socialBtn">SUBSCRIBE</button>
         </div>
       </div>
@@ -31,7 +33,7 @@ const Social = ()=>{
 }
 
 const IconLink = ({ className, url })=>(
-  <a href={ url } target="_blank" rel="noopener noreferrer">
+  <a href={ url }>
     <i className={`socialIcon ${ className }`}></i>
   </a>
 )
