@@ -1,17 +1,18 @@
 import React, { useState, useEffect } from 'react'
+import { IMAGE_URL } from './Urls'
 
 const Header = ()=>{
   const [pos, setPos] = useState(0)
 
   const links = [
-  
+
     { label: 'PODCAST', url: '/' },
     { label: 'BLOG', url: '/' },
     { label: 'EVENTS', url: '/' },
     { label: 'CONTACT', url: '/' },
     { label: 'STORY', url: '/' },
     { label: 'CHARITY', url: '/' },
-   
+
   ]
 
   useEffect(()=>{
@@ -24,7 +25,7 @@ const Header = ()=>{
     <nav className="navbar navbar-expand-lg navbar-dark">
       <div className="container">
       <a className="navbar-brand" href="#a">
-        <img src="/img/header.jpg" className="img-custom img-header"/>
+        <img src={`${ IMAGE_URL }/header.JPG`} className="img-custom img-header"/>
       </a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
@@ -57,7 +58,7 @@ const Header = ()=>{
       </div>
       </div>
     </nav>
-   
+
   )
 }
 

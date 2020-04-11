@@ -5,6 +5,7 @@ import VideoClip from './SubComponents/VideoClip'
 import Social from './SubComponents/Social'
 import ContactForm from './SubComponents/ContactForm'
 import Events from './SubComponents/Events'
+import { IMAGE_URL } from '../Shared/Urls'
 
 const Home = ()=>{
 
@@ -14,7 +15,7 @@ const Home = ()=>{
       title: '<h1>IF CONTENT IS KING, <br />THEN WHO IS QUEEN?</h1>',
       publishAt: '2 days ago',
       readingTime: '15min read',
-      img: '/img/1.jpg',
+      img: `${ IMAGE_URL }/1.JPG`,
       url: '/',
       body: "<p>At vero  eos et accusamus et iusto odio dignissimos ducimus qui blanditiispraesentium voluptatum deleniti atque corrupti quos dolores et quas molestiasexcepturi sint occaecati cupiditate. At vero eos et accusamus et iusto odiodignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.</p><p>At vero eos et accusamus et iusto odio dignissimos ducimus quiblanditiis praesentium voluptatum deleniti atque corrupti quosdolores et quas molestias excepturi sint occaecati elum dolor…</p>"
     },
@@ -24,7 +25,7 @@ const Home = ()=>{
       publishautor: 'By Mattia Rasulo |',
       publishAt: '2 days ago',
       readingTime: '15min read',
-      
+
       url: '/',
       body: "<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiispraesentium voluptatum deleniti atque corrupti quos dolores et quas molestiasexcepturi sint occaecati cupiditate. At vero eos et accusamus et iusto odiodignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.</p><p>At vero eos et accusamus et iusto odio dignissimos ducimus quiblanditiis praesentium voluptatum deleniti atque corrupti quosdolores et quas molestias excepturi sint occaecati elum dolor…</p>"
     }
