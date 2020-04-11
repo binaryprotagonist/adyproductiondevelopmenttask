@@ -81,9 +81,14 @@ const Home = ()=>{
           </div>
           <div className="col-lg-6 col-md-6 mainRight">
             <h3>EVOLVED</h3>
-            <p>
+            <p className="para-main">
               At vero eos et accusamus et iusto odio dignissimos ducimus qui<br/>
               blanditiis praesentium voluptatum deleniti atque corrupti quos<br/>
+              dolores et quas molestias excepturi sint occaecati cupiditate.
+            </p>
+            <p className="para-mobile">
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis praesentium voluptatum deleniti atque corrupti quos
               dolores et quas molestias excepturi sint occaecati cupiditate.
             </p>
           </div>
@@ -145,11 +150,11 @@ const Home = ()=>{
       </div>
       <div className="" style={{ paddingTop: '50px', paddingBottom: '50px', backgroundColor: '#fff' }}>
         <div className="row">
-          <div className="col-lg-1"></div>
-          <div className="col-lg-6 col-md-6">
+          <div className="col-lg-1 col-md-1"></div>
+          <div className="col-lg-6 col-md-5">
             <ContactForm />
           </div>
-          <div className="col-lg-4 col-md-6">
+          <div className="col-lg-4 col-md-4">
             <Events />
           </div>
         </div>
