@@ -13,10 +13,11 @@ body
 .nav-item {
   margin-right: 15px;
 }
-a.nav-link.active
+
+.active
 {
   color: #FFB900 !important;
-  background-image: url('https://raw.githubusercontent.com/binaryprotagonist/adyproductiondevelopmenttask/gh-pages/img/fill2.png');
+  background-image: url(/img/fill2.png);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: bottom;
@@ -32,7 +33,7 @@ a.nav-link.active
 }
 .left-s {
   padding-left: 45px;
-
+ 
 }
 .nav-link{
   font-size: 13px;
@@ -41,7 +42,7 @@ a.nav-link.active
   text-transform: uppercase;
   padding-top: 20px;
   letter-spacing: 1px;
-  color: rgba(255,255,255,0.7) !important;
+  color: rgba(255,255,255,0.7);
   font-weight: 400 !important;
 }
 
@@ -55,9 +56,44 @@ a.nav-link.active
 
 .main{
   width: 100%;
-
-  background: url('https://raw.githubusercontent.com/binaryprotagonist/adyproductiondevelopmenttask/gh-pages/img/banner1.jpg');
+ 
+  background: url('/img/banner1.jpg');
   background-size:  100%;
+}
+img.img-blog {
+  height: 180px;
+  /* width: 160px; */
+  max-width: 100%;
+}
+.main1
+{
+  width: 100%;
+ 
+  background: url('/img/podcastbanner.png');
+  background-size: contain;
+    height: 349px;
+}
+@media(max-width:767px)
+{
+  .all-pages-head
+  {
+    padding-top: 0;
+  }
+  .main1
+  {
+    height: auto;
+    padding-top: 70px;
+    background-size: cover;
+    padding-bottom: 70px;
+  }
+  .clipTitle 
+  {
+    margin-top: 60px;
+  }
+  .active
+  {
+    background-image: none;
+  }
 }
 .black-table
 {
@@ -78,8 +114,8 @@ td.black-table {
 {
   .main
   {
-    margin-top: -63px;
-
+    /* margin-top: -63px; */
+    
   height: 665px;
   }
 }
@@ -126,7 +162,7 @@ td.black-table {
   padding-left: 40px;
   color: #fff;
   font-size: 40px;
-  background-image: url('https://raw.githubusercontent.com/binaryprotagonist/adyproductiondevelopmenttask/gh-pages/img/Fill1.png');
+  background-image: url(/img/fill1.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -158,29 +194,6 @@ td.black-table {
   background-color: #FFB900;
 }
 
-@media only screen and (max-width: 1200px) {
-  .subscribeForm{
-    padding-right: 0px;
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-  .contactForm{
-    padding-left: 30px;
-  }
-  .events{
-    padding-right: 30px;
-  }
-  .left-s{
-    padding-left: 30px;
-  }
-}
-@media only screen and (max-width: 800px) {
-  .left-s{
-    padding-left: 15px;
-  }
-}
-
 .subscribeForm label{
   font-weight: 800;
   text-transform: uppercase;
@@ -208,6 +221,7 @@ td.black-table {
   font-family: 'Oswald';
   width: 170px;
   height: 50px;
+  margin: 0 auto;
 }
 
 .article > h6{
@@ -291,7 +305,7 @@ tr.table-calender td {
   font-family: 'Rock Salt';
   font-weight: 600;
   margin-bottom: 50px;
-  background-image: url('https://raw.githubusercontent.com/binaryprotagonist/adyproductiondevelopmenttask/gh-pages/img/Fill2.png');
+  background-image: url(/img/fill2.png);
   background-size: contain;
   background-repeat: no-repeat;
   padding-left: 25px;
@@ -361,12 +375,28 @@ tr.table-calender td {
   }
   .socialLabel
   {
-    text-align: left;
+    text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
+    display: none;
+  }
+  .social 
+  {
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+  .display-b
+  {
+    display: block !important;
+  }
+  .socialBtn 
+  {
+    margin: 0 auto;
+    display: block;
   }
   .social-block.flex {
     display: block;
+    text-align: center;
 }
 tr.table-calender td
 {
@@ -403,8 +433,8 @@ background-repeat: no-repeat;
 }
 .mainRight > p
 {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   padding-left: 15px;
 }
 .mainLeft {
@@ -472,7 +502,7 @@ background-repeat: no-repeat;
 }
 .btn-primary:hover
 {
- background-color: #000;
+ background-color: #000;  
  border: 1px solid #FFB900;
 }
 
@@ -495,14 +525,80 @@ background-repeat: no-repeat;
   font-weight: 900;
   font-size: 14px;
   font-family: 'Lato';
-  background-image: url('https://raw.githubusercontent.com/binaryprotagonist/adyproductiondevelopmenttask/gh-pages/img/fill1.JPG');
+  background-image: url(/img/fill1.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
   padding-bottom: 10px;
 }
+h1.head-calender {
+  color: #000000;
+  font-family: Oswald;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 38px;
+  padding-left: 14px;
+}
+a.more1 {
+  padding-left: 15px;
+  color: rgba(0,0,0,0.3);
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 0.86px;
+  line-height: 26px;
+  padding-right: 30px;
+}
+img.image-blog {
+  margin: 0 auto;
+  display: block;
+  margin-top: 13px;
+}
+.mainRight-all
+{
+padding-top: 150px;
+}
+.all-pages-head
+{
+  padding-top: 130px !important;
+}
+p.para-title {
+  color: #000000;
+  font-family: Lato;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+  font-weight: 510;
+  padding-left: 5px;
+  padding-right: 50px;
+  margin-top: -15px;
+}
+.more
+{
+  color: #000000;
+  font-weight: 900;
+  font-size: 14px;
+  font-family: 'Lato';
+  background-image: url(/img/fab.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom: 10px;
+  padding-top: 30px;
+  /* position: relative;
+  top:50px; */
+}
+label.seprator-calender {
+  box-sizing: border-box;
+  height: 1px;
+  width: 100%;
+  border: 2px solid #000000;
+  margin-left: 12px;
+  margin-top: 14px;
+  margin-bottom: 25px;
+}
 
 .article-last .clipTitle {
-  background-image: url('https://raw.githubusercontent.com/binaryprotagonist/adyproductiondevelopmenttask/gh-pages/img/Fill3.png');
+  background-image: url(/img/fill3.png);
   margin-top: 15px;
 
 }
@@ -584,4 +680,138 @@ a:hover{
 .cpntact-l
 {
   padding-left: 30px;
+}
+
+h1.blog-title {
+  color: #000000;
+  font-family: Oswald;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.row.box-yellow {
+  height: 70px;
+  width: 390px;
+  background-color: #F0B300;
+  margin-left: 4px;
+  margin-bottom: 40px;
+}
+
+.col-lg-3.box-grey {
+  height: 70px;
+  width: 70px;
+  background-color: #F1F1F1;
+}
+
+h1.head-b1 {
+  color: #FFFFFF;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 0.86px;
+  line-height: 26px;
+  padding-top: 9px;
+}
+i.custom-play {
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 25px;
+  padding-top: 20px;
+}
+h3.head-b2 {
+  color: #000000;
+  font-family: Oswald;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 19px;
+  margin-top: -8px;
+}
+
+@media(max-width:767px)
+
+{
+  .row.box-yellow
+  {
+    width: 100%;
+  }
+  h1.head-b1
+  {
+    font-size: 12px;
+  }
+}
+
+.section-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-head h2 {
+  color: #000000;
+  font-family: Oswald;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 19px;
+}
+
+.section-head h3 {
+  color: #F0B900;
+  font-family: Oswald;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 19px;
+  text-align: right;
+  margin-right: 95px;
+}
+a.more.pad-more {
+  position: relative;
+  top: 30px;
+}
+.podcast-image {
+  background-image: url(/img/preview1.jpg);
+  height: 100px;
+  background-size: 100% 100%;
+  width: 515px;
+}
+
+p.para-podcast {
+  color: #000000;
+  font-family: Lato;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+  padding-right: 80px;
+  font-weight: 510;
+  padding-top: 15px;
+  padding-bottom: 40px;
+}
+
+
+/*  */
+
+@media(max-width:767px)
+{
+
+.input-group-append
+{
+  margin-top: 15px !important;
+  width: 100% !important;
+
+}
+.para-main
+{
+  display: none;
+}
+.para-mobile
+{
+  display:block !important;
+}
+
+}
+.para-mobile
+{
+  display:none;
 }
