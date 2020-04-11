@@ -1,6 +1,6 @@
 import React from 'react'
 import parse from 'html-react-parser'
-import { IMAGE_URL } from '../Shared/Urls'
+import { IMAGE_URL } from '../../Shared/Urls'
 
 const Article = ({ articleType, title, publishautor, publishAt, readingTime, body, img, url, white })=>{
 
