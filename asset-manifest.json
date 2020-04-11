@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/adyproductiondevelopmenttask/static/css/main.e8a7ceb8.chunk.css",
+    "main.js": "/adyproductiondevelopmenttask/static/js/main.fcff3971.chunk.js",
+    "main.js.map": "/adyproductiondevelopmenttask/static/js/main.fcff3971.chunk.js.map",
+    "runtime-main.js": "/adyproductiondevelopmenttask/static/js/runtime-main.98c1a7bb.js",
+    "runtime-main.js.map": "/adyproductiondevelopmenttask/static/js/runtime-main.98c1a7bb.js.map",
+    "static/js/2.e7520557.chunk.js": "/adyproductiondevelopmenttask/static/js/2.e7520557.chunk.js",
+    "static/js/2.e7520557.chunk.js.map": "/adyproductiondevelopmenttask/static/js/2.e7520557.chunk.js.map",
+    "index.html": "/adyproductiondevelopmenttask/index.html",
+    "precache-manifest.fa20b2125b50d14561313e9020c2d58b.js": "/adyproductiondevelopmenttask/precache-manifest.fa20b2125b50d14561313e9020c2d58b.js",
+    "service-worker.js": "/adyproductiondevelopmenttask/service-worker.js",
+    "static/css/main.e8a7ceb8.chunk.css.map": "/adyproductiondevelopmenttask/static/css/main.e8a7ceb8.chunk.css.map",
+    "static/js/2.e7520557.chunk.js.LICENSE.txt": "/adyproductiondevelopmenttask/static/js/2.e7520557.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.98c1a7bb.js",
+    "static/js/2.e7520557.chunk.js",
+    "static/css/main.e8a7ceb8.chunk.css",
+    "static/js/main.fcff3971.chunk.js"
+  ]
+}
