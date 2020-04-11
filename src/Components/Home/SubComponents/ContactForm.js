@@ -90,10 +90,7 @@ const ContactForm = ()=>{
             <i className="fas fa-calendar-day custom-icon"></i>
             
           </div>
-          <div className="form-group">
-            <input type="submit" value="SUBMIT" className="contactSubmit btn btn-primary"/>
-          </div>
-        </div>
+                  </div>
         <div className="col-lg-6 col-md-6">
           <div className="form-group mb-4">
             <input
@@ -122,6 +119,12 @@ const ContactForm = ()=>{
             ></textarea>
           </div>
         </div>
+        <div className="col-lg-6 col-md-6">
+        <div className="form-group">
+            <input type="submit" value="SUBMIT" className="contactSubmit btn btn-primary"/>
+          </div>
+          </div>
+
       </div>
     </form>
   )
