@@ -31,7 +31,7 @@ const Social = ()=>{
 }
 
 const IconLink = ({ className, url })=>(
-  <a href={ url }>
+  <a href={ url } target="_blank" rel="noopener noreferrer">
     <i className={`socialIcon ${ className }`}></i>
   </a>
 )

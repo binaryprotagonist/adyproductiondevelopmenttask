@@ -158,6 +158,29 @@ td.black-table {
   background-color: #FFB900;
 }
 
+@media only screen and (max-width: 1200px) {
+  .subscribeForm{
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .contactForm{
+    padding-left: 30px;
+  }
+  .events{
+    padding-right: 30px;
+  }
+  .left-s{
+    padding-left: 30px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .left-s{
+    padding-left: 15px;
+  }
+}
+
 .subscribeForm label{
   font-weight: 800;
   text-transform: uppercase;

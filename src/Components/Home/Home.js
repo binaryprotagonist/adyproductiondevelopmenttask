@@ -145,11 +145,11 @@ const Home = ()=>{
       </div>
       <div className="" style={{ paddingTop: '50px', paddingBottom: '50px', backgroundColor: '#fff' }}>
         <div className="row">
-          <div className="col-lg-1 col-md-1"></div>
-          <div className="col-lg-6 col-md-5">
+          <div className="col-lg-1"></div>
+          <div className="col-lg-6 col-md-6">
             <ContactForm />
           </div>
-          <div className="col-lg-4 col-md-4">
+          <div className="col-lg-4 col-md-6">
             <Events />
           </div>
         </div>

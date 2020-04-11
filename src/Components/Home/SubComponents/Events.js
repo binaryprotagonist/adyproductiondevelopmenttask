@@ -47,8 +47,6 @@ const Events = ()=>{
       </table>
       <table className="table"style={{ marginTop:'-23px'}}>
         <tbody>
-
-
           { events.map((e, i)=>(
             <Item key={ i } { ...e } />
           )) }
